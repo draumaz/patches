@@ -1,0 +1,6 @@
+17c17
+<     skip_categories = "sponsor",
+---
+>     skip_categories = "sponsor,intro,outro,interaction,selfpromo",
+209d208
+<             mp.osd_message("[sponsorblock] database update failed, retrying...")

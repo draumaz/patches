@@ -1,0 +1,2 @@
+97d96
+<         print("database update failed", file=sys.stderr)
