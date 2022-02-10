@@ -1,1 +1,3 @@
+https://github.com/martykan/forecastie
+
 - Move simple_widget attributes to time_widget, as simple_widget is unresizable on Lawnchair.
