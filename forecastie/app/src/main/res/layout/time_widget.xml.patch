@@ -1,0 +1,71 @@
+11,28c11
+<         android:id="@+id/time"
+<         android:layout_width="wrap_content"
+<         android:layout_height="wrap_content"
+<         android:textSize="24sp"
+<         tools:text="11:50"
+<         android:textColor="@color/text_light"/>
+< 
+<     <TextView
+<         android:id="@+id/date"
+<         android:layout_width="wrap_content"
+<         android:layout_height="wrap_content"
+<         android:layout_below="@id/time"
+<         android:textSize="14sp"
+<         tools:text="Sun 01.01.2017"
+<         android:textColor="@color/text_light"/>
+< 
+<     <TextView
+<         android:id="@+id/widgetCity"
+---
+>         android:id="@+id/widgetDescription"
+30a14
+>         android:layout_alignParentLeft="true"
+32,35c16,18
+<         android:textSize="14sp"
+<         android:textStyle="bold"
+<         tools:text="City name, AB"
+<         android:textColor="@color/text_light"/>
+---
+>         android:textColor="@color/text_light"
+>         android:textSize="10sp"
+>         tools:text="Clear Sky" />
+41,42c24,27
+<         android:layout_centerHorizontal="true"
+<         tools:src="@drawable/ic_cloud_white_24dp"/>
+---
+>         android:layout_alignParentEnd="true"
+>         android:layout_alignParentRight="true"
+>         android:layout_centerVertical="true"
+>         tools:src="@drawable/ic_cloud_white_24dp" />
+48,50c33,36
+<         android:layout_alignParentEnd="true"
+<         android:layout_alignParentRight="true"
+<         android:textSize="24sp"
+---
+>         android:layout_alignParentLeft="true"
+>         android:layout_centerVertical="true"
+>         android:textColor="@color/text_light"
+>         android:textSize="20sp"
+52,53c38
+<         tools:text="0 °C"
+<         android:textColor="@color/text_light"/>
+---
+>         tools:text="0 °C" />
+56c41
+<         android:id="@+id/widgetDescription"
+---
+>         android:id="@+id/widgetCity"
+59,64c44,48
+<         android:layout_alignParentEnd="true"
+<         android:layout_alignParentRight="true"
+<         android:layout_alignParentBottom="true"
+<         android:textSize="16sp"
+<         tools:text="Clear Sky"
+<         android:textColor="@color/text_light" />
+---
+>         android:layout_alignParentLeft="true"
+>         android:textColor="@color/text_light"
+>         android:textSize="10sp"
+>         tools:ignore="TextContrastCheck"
+>         tools:text="City name, AB" />

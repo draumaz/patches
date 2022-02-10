@@ -1,0 +1,10 @@
+23d22
+<         android:layout_centerVertical="true"
+24a24,25
+>         android:layout_centerVertical="true"
+>         android:textColor="@color/text_light"
+27,28c28
+<         tools:text="0 °C"
+<         android:textColor="@color/text_light"/>
+---
+>         tools:text="0 °C" />
