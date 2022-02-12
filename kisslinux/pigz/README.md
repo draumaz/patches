@@ -1,2 +1,0 @@
-- Updated package version to 2.7
-- Updated checksums
